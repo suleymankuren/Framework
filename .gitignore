@@ -1,0 +1,5 @@
+target
+src/test/resources/apiCredentials.properties
+src/test/resources/databaseCredentials.properties
+src/test/resources/uiCredentials.properties
+
