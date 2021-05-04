@@ -1,4 +1,4 @@
-package ui_test.ui_runner;
+package ui_test.ui_stepdefinitions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
