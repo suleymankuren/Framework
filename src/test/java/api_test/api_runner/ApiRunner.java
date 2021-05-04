@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/feature/api_feature",
         glue = "api_test/api_stepdefinitions",
-        tags = "@smoke",
+        tags = "@post",
         dryRun = false,
-        plugin={"pretty","json:target/apiReport.json","html:target/apiReport.html"})
+        plugin={"pretty","json:target/apiReport.json","html:target/apiReport.html","rerun:target/apiFailedTests.txt"})
 public class ApiRunner {
 }
